@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+body{ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    background-color: #cdced1; 
+}
+.container{
+    margin-left: 600px;
+    margin-top: 100px;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 14px 14px 20px #cdced1, -14px 14px 20px white
+}
+.brand title{
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+.inputs{
+    text-align: center;
+    margin: 0px;
+}
+label,input,button{
+    width:100% ;
+    border: lightblue;
+    outline: lightpink;
+    font-size: 20px;
+}
+input::placeholder{
+    color: lightseagreen;
+}
+input{
+    width: 330px;
+    background-color: lightyellow;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 6px white,-6px 6px 6px whitesmoke ;
+}
+button{
+    margin-top: 50px;
+    width: 330px;
+    background: aliceblue;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px white,-6px 6px 6px whitesmoke ;
+}
+button:hover{
+    box-shadow: beige;
+}
